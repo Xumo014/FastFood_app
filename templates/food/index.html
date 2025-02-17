@@ -177,8 +177,10 @@
     <div class="content">
         <div class="container">
             <div class="filter">
-                <button class="active" data-id="all">Barchasi</button> {% for c in categories %}
-                <button data-id="{{c.name|upper}}">{{c.name|title}}</button> {% endfor %}
+                <button class="active" data-id="all">Barchasi</button> 
+                {% for c in categories %}
+                <button data-id="{{c.name|upper}}">{{c.name|title}}</button> 
+                {% endfor %}
             </div>
             <div class="mob__button">
                 <button class="mobFilt">
